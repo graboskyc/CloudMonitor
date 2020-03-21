@@ -2,8 +2,13 @@ exports = async function(changeEvent) {
   var doc = changeEvent.fullDocument;
   var conn = context.services.get("mongodb-atlas").db("aws").collection("normalizedData");
   
+  var res = [];
+  
   if(doc.response.hasOwnProperty('Reservations')) {
-    doc.lineItems = doc.response.Reservations[0].Instances;
+    for(var i=0; i<doc.response.Reservations.length; i++) {
+      res = res.concat(doc.response.Reservations[0].Instances);
+    }
+    doc.lineItems = res;
   }
   else if(doc.response.hasOwnProperty('Keys')) {
     doc.lineItems = doc.response.Keys;

@@ -1,0 +1,10 @@
+{
+    "id": "5e74be57578156fd31cce786",
+    "name": "dailyStatRollUpSchedTrigger",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 3 * * *"
+    },
+    "function_name": "dailyStatRollUp",
+    "disabled": false
+}
