@@ -1,0 +1,269 @@
+name,vCPU,ramgb,storagegb,io,hourlycost
+a1.medium,1,2,--,Up to 10 Gbps,0.0255
+a1.large,2,4,--,Up to 10 Gbps,0.0510
+a1.xlarge,4,8,--,Up to 10 Gbps,0.1020
+a1.2xlarge,8,16,--,Up to 10 Gbps,0.2040
+a1.4xlarge,16,32,--,Up to 10 Gbps,0.4080
+a1.metal,16,32,--,Up to 10 Gbps,0.4080
+c4.large,2,3.75,--,Moderate,0.1000
+c4.xlarge,4,7.5,--,High,0.1990
+c4.2xlarge,8,15,--,High,0.3980
+c4.4xlarge,16,30,--,High,0.7960
+c4.8xlarge,36,60,--,10 Gigabit,1.5910
+c5.large,2,4,--,Up to 10 Gbps,0.0850
+c5.xlarge,4,8,--,Up to 10 Gbps,0.1700
+c5.2xlarge,8,16,--,Up to 10 Gbps,0.3400
+c5.4xlarge,16,32,--,Up to 10 Gbps,0.6800
+c5.9xlarge,36,72,--,10 Gigabit,1.5300
+c5.12xlarge,48,96,--,12 Gigabit,2.0400
+c5.18xlarge,72,144,--,25 Gigabit,3.0600
+c5.24xlarge,96,192,--,25 Gigabit,4.0800
+c5.metal,96,192,--,25 Gigabit,4.0800
+c5d.large,2,4,1 x 50 NVMe SSD,Up to 10 Gbps,0.0960
+c5d.xlarge,4,8,1 x 100 NVMe SSD,Up to 10 Gbps,0.1920
+c5d.2xlarge,8,16,1 x 200 NVMe SSD,Up to 10 Gbps,0.3840
+c5d.4xlarge,16,32,1 x 400 NVMe SSD,Up to 10 Gbps,0.7680
+c5d.9xlarge,36,72,1 x 900 NVMe SSD,10 Gigabit,1.7280
+c5d.12xlarge,48,96,2 x 900 NVMe SSD,12 Gigabit,2.3040
+c5d.18xlarge,72,144,2 x 900 NVMe SSD,25 Gigabit,3.4560
+c5d.24xlarge,96,192,4 x 900 NVMe SSD,25 Gigabit,4.6080
+c5d.metal,96,192,4 x 900 NVMe SSD,25 Gigabit,4.6080
+c5n.large,2,5.25,--,Up to 25 Gbps,0.1080
+c5n.xlarge,4,10.5,--,Up to 25 Gbps,0.2160
+c5n.2xlarge,8,21,--,Up to 25 Gbps,0.4320
+c5n.4xlarge,16,42,--,Up to 25 Gbps,0.8640
+c5n.9xlarge,36,96,--,50 Gigabit,1.9440
+c5n.18xlarge,72,192,--,100 Gigabit,3.8880
+c5n.metal,72,192,--,100 Gigabit,3.8880
+d2.xlarge,4,30.5,3 x 2000 HDD,Moderate,0.6900
+d2.2xlarge,8,61,6 x 2000 HDD,High,1.3800
+d2.4xlarge,16,122,12 x 2000 HDD,High,2.7600
+d2.8xlarge,36,244,24 x 2000 HDD,10 Gigabit,5.5200
+f1.2xlarge,8,122,1 x 470 NVMe SSD,Up to 10 Gbps,1.6500
+f1.4xlarge,16,244,1 x 940 NVMe SSD,10 Gigabit,3.3000
+f1.16xlarge,64,976,4 x 940 NVMe SSD,20 Gigabit,13.2000
+g3.4xlarge,16,122,--,Up to 10 Gbps,1.1400
+g3.8xlarge,32,244,--,10 Gigabit,2.2800
+g3.16xlarge,64,488,--,20 Gigabit,4.5600
+g3s.xlarge,4,30.5,--,10 Gigabit,0.7500
+g4dn.xlarge,4,16,125 GB NVMe SSD,Up to 25 Gbps,0.5260
+g4dn.2xlarge,8,32,225 GB NVMe SSD,Up to 25 Gbps,0.7520
+g4dn.4xlarge,16,64,225 GB NVMe SSD,Up to 25 Gbps,1.2040
+g4dn.8xlarge,32,128,900 GB NVMe SSD,50 Gigabit,2.1760
+g4dn.12xlarge,48,192,900 GB NVMe SSD,50 Gigabit,3.9120
+g4dn.16xlarge,64,256,900 GB NVMe SSD,50 Gigabit,4.3520
+h1.2xlarge,8,32,1 x 2000 HDD,Up to 10 Gbps,0.4680
+h1.4xlarge,16,64,2 x 2000 HDD,Up to 10 Gbps,0.9360
+h1.8xlarge,32,128,4 x 2000 HDD,10 Gigabit,1.8720
+h1.16xlarge,64,256,8 x 2000 HDD,25 Gigabit,3.7440
+i3.large,2,15.25,1 x 475 NVMe SSD,Up to 10 Gbps,0.1560
+i3.xlarge,4,30.5,1 x 950 NVMe SSD,Up to 10 Gbps,0.3120
+i3.2xlarge,8,61,1 x 1900 NVMe SSD,Up to 10 Gbps,0.6240
+i3.4xlarge,16,122,2 x 1900 NVMe SSD,Up to 10 Gbps,1.2480
+i3.8xlarge,32,244,4 x 1900 NVMe SSD,10 Gigabit,2.4960
+i3.16xlarge,64,488,8 x 1900 NVMe SSD,20 Gigabit,4.9920
+i3.metal,64,512,8 x 1900 NVMe SSD,25 Gigabit,4.9920
+i3en.large,2,16,1 x 1250 NVMe SSD,Up to 25 Gbps,0.2260
+i3en.xlarge,4,32,1 x 2500 NVMe SSD,Up to 25 Gbps,0.4520
+i3en.2xlarge,8,64,2 x 2500 NVMe SSD,Up to 25 Gbps,0.9040
+i3en.3xlarge,12,96,1 x 7500 NVMe SSD,Up to 25 Gbps,1.3560
+i3en.6xlarge,24,192,2 x 7500 NVMe SSD,25 Gigabit,2.7120
+i3en.12xlarge,48,384,4 x 7500 NVMe SSD,50 Gigabit,5.4240
+i3en.24xlarge,96,768,8 x 7500 NVMe SSD,100 Gigabit,10.8480
+i3en.metal,96,768,8 x 7500 NVMe SSD,100 Gigabit,10.8480
+inf1.xlarge,4,8,--,Up to 25 Gbps,0.3680
+inf1.2xlarge,8,16,--,Up to 25 Gbps,0.5840
+inf1.6xlarge,24,48,--,25 Gigabit,1.9040
+inf1.24xlarge,96,192,--,100 Gigabit,7.6150
+m4.large,2,8,--,Moderate,0.1000
+m4.xlarge,4,16,--,High,0.2000
+m4.2xlarge,8,32,--,High,0.4000
+m4.4xlarge,16,64,--,High,0.8000
+m4.10xlarge,40,160,--,10 Gigabit,2.0000
+m4.16xlarge,64,256,--,20 Gigabit,3.2000
+m5.large,2,8,--,Up to 10 Gbps,0.0960
+m5.xlarge,4,16,--,Up to 10 Gbps,0.1920
+m5.2xlarge,8,32,--,Up to 10 Gbps,0.3840
+m5.4xlarge,16,64,--,Up to 10 Gbps,0.7680
+m5.8xlarge,32,128,--,10 Gigabit,1.5360
+m5.12xlarge,48,192,--,10 Gigabit,2.3040
+m5.16xlarge,64,256,--,20 Gigabit,3.0720
+m5.24xlarge,96,384,--,25 Gigabit,4.6080
+m5.metal,96,384,--,25 Gigabit,4.6080
+m5a.large,2,8,--,Up to 10 Gbps,0.0860
+m5a.xlarge,4,16,--,Up to 10 Gbps,0.1720
+m5a.2xlarge,8,32,--,Up to 10 Gbps,0.3440
+m5a.4xlarge,16,64,--,Up to 10 Gbps,0.6880
+m5a.8xlarge,32,128,--,Up to 10 Gbps,1.3760
+m5a.12xlarge,48,192,--,10 Gigabit,2.0640
+m5a.16xlarge,64,256,--,12 Gigabit,2.7520
+m5a.24xlarge,96,384,--,20 Gigabit,4.1280
+m5ad.large,2,8,1 x 75 NVMe SSD,Up to 10 Gbps,0.1030
+m5ad.xlarge,4,16,1 x 150 NVMe SSD,Up to 10 Gbps,0.2060
+m5ad.2xlarge,8,32,1 x 300 NVMe SSD,Up to 10 Gbps,0.4120
+m5ad.4xlarge,16,64,2 x 300 NVMe SSD,Up to 10 Gbps,0.8240
+m5ad.12xlarge,48,192,2 x 900 NVMe SSD,10 Gigabit,2.4720
+m5ad.24xlarge,96,384,4 x 900 NVMe SSD,20 Gigabit,4.9440
+m5d.large,2,8,1 x 75 NVMe SSD,Up to 10 Gbps,0.1130
+m5d.xlarge,4,16,1 x 150 NVMe SSD,Up to 10 Gbps,0.2260
+m5d.2xlarge,8,32,1 x 300 NVMe SSD,Up to 10 Gbps,0.4520
+m5d.4xlarge,16,64,2 x 300 NVMe SSD,Up to 10 Gbps,0.9040
+m5d.8xlarge,32,128,2 x 600 NVMe SSD,10 Gigabit,1.8080
+m5d.12xlarge,48,192,2 x 900 NVMe SSD,10 Gigabit,2.7120
+m5d.16xlarge,64,256,4 x 600 NVMe SSD,20 Gigabit,3.6160
+m5d.24xlarge,96,384,4 x 900 NVMe SSD,25 Gigabit,5.4240
+m5d.metal,96,384,4 x 900 NVMe SSD,25 Gigabit,5.4240
+m5dn.large,2,8,1 x 75 NVMe SSD,Up to 25 Gbps,0.1360
+m5dn.xlarge,4,16,1 x 150 NVMe SSD,Up to 25 Gbps,0.2720
+m5dn.2xlarge,8,32,1 x 300 NVMe SSD,Up to 25 Gbps,0.5440
+m5dn.4xlarge,16,64,2 x 300 NVMe SSD,Up to 25 Gbps,1.0880
+m5dn.8xlarge,32,128,2 x 600 NVMe SSD,25 Gigabit,2.1760
+m5dn.12xlarge,48,192,2 x 900 GB NVMe SSD,50 Gigabit,3.2640
+m5dn.16xlarge,64,256,4 x 600 NVMe SSD,75 Gigabit,4.3520
+m5dn.24xlarge,96,384,4 x 900 NVMe SSD,100 Gigabit,6.5280
+m5n.large,2,8,--,Up to 25 Gbps,0.1190
+m5n.xlarge,4,16,--,Up to 25 Gbps,0.2380
+m5n.2xlarge,8,32,--,Up to 25 Gbps,0.4760
+m5n.4xlarge,16,64,--,Up to 25 Gbps,0.9520
+m5n.8xlarge,32,128,--,25 Gigabit,1.9040
+m5n.12xlarge,48,192,--,50 Gigabit,2.8560
+m5n.16xlarge,64,256,--,75 Gigabit,3.8080
+m5n.24xlarge,96,384,--,100 Gigabit,5.7120
+m6g.medium,1,4,--,Up to 10 Gbps,0.0385
+m6g.large,2,8,--,Up to 10 Gbps,0.0770
+m6g.xlarge,4,16,--,Up to 10 Gbps,0.1540
+m6g.2xlarge,8,32,--,Up to 10 Gbps,0.3080
+m6g.4xlarge,16,64,--,Up to 10 Gbps,0.6160
+m6g.8xlarge,32,128,--,10 Gigabit,1.2320
+m6g.12xlarge,48,192,--,12 Gigabit,1.8480
+m6g.16xlarge,64,256,--,25 Gigabit,2.4640
+p2.xlarge,4,61,--,High,0.9000
+p2.8xlarge,32,488,--,10 Gigabit,7.2000
+p2.16xlarge,64,732,--,20 Gigabit,14.4000
+p3.2xlarge,8,61,--,Up to 10 Gbps,3.0600
+p3.8xlarge,32,244,--,10 Gigabit,12.2400
+p3.16xlarge,64,488,--,25 Gigabit,24.4800
+p3dn.24xlarge,96,768,2 x 900 NVMe SSD,100 Gigabit,31.2120
+r4.large,2,15.25,--,Up to 10 Gbps,0.1330
+r4.xlarge,4,30.5,--,Up to 10 Gbps,0.2660
+r4.2xlarge,8,61,--,Up to 10 Gbps,0.5320
+r4.4xlarge,16,122,--,Up to 10 Gbps,1.0640
+r4.8xlarge,32,244,--,10 Gigabit,2.1280
+r4.16xlarge,64,488,--,20 Gigabit,4.2560
+r5.large,2,16,--,Up to 10 Gbps,0.1260
+r5.xlarge,4,32,--,Up to 10 Gbps,0.2520
+r5.2xlarge,8,64,--,Up to 10 Gbps,0.5040
+r5.4xlarge,16,128,--,Up to 10 Gbps,1.0080
+r5.8xlarge,32,256,--,10 Gigabit,2.0160
+r5.12xlarge,48,384,--,10 Gigabit,3.0240
+r5.16xlarge,64,512,--,20 Gigabit,4.0320
+r5.24xlarge,96,768,--,25 Gigabit,6.0480
+r5.metal,96,768,--,25 Gigabit,6.0480
+r5a.large,2,16,--,10 Gigabit,0.1130
+r5a.xlarge,4,32,--,10 Gigabit,0.2260
+r5a.2xlarge,8,64,--,10 Gigabit,0.4520
+r5a.4xlarge,16,128,--,10 Gigabit,0.9040
+r5a.8xlarge,32,256,--,Up to 10 Gbps,1.8080
+r5a.12xlarge,48,384,--,10 Gigabit,2.7120
+r5a.16xlarge,64,512,--,12 Gigabit,3.6160
+r5a.24xlarge,96,768,--,20 Gigabit,5.4240
+r5ad.large,2,16,1 x 75 NVMe SSD,10 Gigabit,0.1310
+r5ad.xlarge,4,32,1 x 150 NVMe SSD,10 Gigabit,0.2620
+r5ad.2xlarge,8,64,1 x 300 NVMe SSD,10 Gigabit,0.5240
+r5ad.4xlarge,16,128,2 x 300 NVMe SSD,10 Gigabit,1.0480
+r5ad.12xlarge,48,384,2 x 900 NVMe SSD,10 Gigabit,3.1440
+r5ad.24xlarge,96,768,4 x 900 NVMe SSD,20 Gigabit,6.2880
+r5d.large,2,16,1 x 75 NVMe SSD,10 Gigabit,0.1440
+r5d.xlarge,4,32,1 x 150 NVMe SSD,10 Gigabit,0.2880
+r5d.2xlarge,8,64,1 x 300 NVMe SSD,10 Gigabit,0.5760
+r5d.4xlarge,16,128,2 x 300 NVMe SSD,10 Gigabit,1.1520
+r5d.8xlarge,32,256,2 x 600 NVMe SSD,10 Gigabit,2.3040
+r5d.12xlarge,48,384,2 x 900 NVMe SSD,10 Gigabit,3.4560
+r5d.16xlarge,64,512,4 x 600 NVMe SSD,20 Gigabit,4.6080
+r5d.24xlarge,96,768,4 x 900 NVMe SSD,25 Gigabit,6.9120
+r5d.metal,96,768,4 x 900 NVMe SSD,25 Gigabit,6.9120
+r5dn.large,2,16,1 x 75 NVMe SSD,Up to 25 Gbps,0.1670
+r5dn.xlarge,4,32,1 x 150 NVMe SSD,Up to 25 Gbps,0.3340
+r5dn.2xlarge,8,64,1 x 300 NVMe SSD,Up to 25 Gbps,0.6680
+r5dn.4xlarge,16,128,2 x 300 NVMe SSD,Up to 25 Gbps,1.3360
+r5dn.8xlarge,32,256,2 x 600 NVMe SSD,25 Gigabit,2.6720
+r5dn.12xlarge,48,384,2 x 900 GB NVMe SSD,50 Gigabit,4.0080
+r5dn.16xlarge,64,512,4 x 600 NVMe SSD,75 Gigabit,5.3440
+r5dn.24xlarge,96,768,4 x 900 NVMe SSD,100 Gigabit,8.0160
+r5n.large,2,16,--,Up to 25 Gbps,0.1490
+r5n.xlarge,4,32,--,Up to 25 Gbps,0.2980
+r5n.2xlarge,8,64,--,Up to 25 Gbps,0.5960
+r5n.4xlarge,16,128,--,Up to 25 Gbps,1.1920
+r5n.8xlarge,32,256,--,25 Gigabit,2.3840
+r5n.12xlarge,48,384,--,50 Gigabit,3.5760
+r5n.16xlarge,64,512,--,75 Gigabit,4.7680
+r5n.24xlarge,96,768,--,100 Gigabit,7.1520
+t2.nano,1,0.5,--,Low,0.0058
+t2.micro,1,1,--,Low to Moderate,0.0116
+t2.small,1,2,--,Low to Moderate,0.0230
+t2.medium,2,4,--,Low to Moderate,0.0464
+t2.large,2,8,--,Low to Moderate,0.0928
+t2.xlarge,4,16,--,Moderate,0.1856
+t2.2xlarge,8,32,--,Moderate,0.3712
+t3.nano,2,0.5,--,Low,0.0052
+t3.micro,2,1,--,Low to Moderate,0.0104
+t3.small,2,2,--,Low to Moderate,0.0208
+t3.medium,2,4,--,Low to Moderate,0.0416
+t3.large,2,8,--,Low to Moderate,0.0832
+t3.xlarge,4,16,--,Moderate,0.1664
+t3.2xlarge,8,32,--,Moderate,0.3328
+t3a.nano,2,0.5,--,Low,0.0047
+t3a.micro,2,1,--,Low to Moderate,0.0094
+t3a.small,2,2,--,Low to Moderate,0.0188
+t3a.medium,2,4,--,Low to Moderate,0.0376
+t3a.large,2,8,--,Low to Moderate,0.0752
+t3a.xlarge,4,16,--,Moderate,0.1504
+t3a.2xlarge,8,32,--,Moderate,0.3008
+x1.16xlarge,64,976,1 x 1920 SSD,High,6.6690
+x1.32xlarge,128,1952,2 x 1920 SSD,High,13.3380
+x1e.xlarge,4,122,1 x 120 SSD,Up to 10 Gbps,0.8340
+x1e.2xlarge,8,244,1 x 240 SSD,Up to 10 Gbps,1.6680
+x1e.4xlarge,16,488,1 x 480 SSD,Up to 10 Gbps,3.3360
+x1e.8xlarge,32,976,1 x 960 SSD,Up to 10 Gbps,6.6720
+x1e.16xlarge,64,1952,1 x 1920 SSD,10 Gigabit,13.3440
+x1e.32xlarge,128,3904,2 x 1920 SSD,25 Gigabit,26.6880
+z1d.large,2,16,1 x 75 NVMe SSD,Up to 10 Gbps,0.1860
+z1d.xlarge,4,32,1 x 150 NVMe SSD,Up to 10 Gbps,0.3720
+z1d.2xlarge,8,64,1 x 300 NVMe SSD,Up to 10 Gbps,0.7440
+z1d.3xlarge,12,96,1 x 450 NVMe SSD,Up to 10 Gbps,1.1160
+z1d.6xlarge,24,192,1 x 900 NVMe SSD,10 Gigabit,2.2320
+z1d.12xlarge,48,384,2 x 900 NVMe SSD,25 Gigabit,4.4640
+z1d.metal,48,384,2 x 900 NVMe SSD,25 Gigabit,4.4640
+c1.medium,2,1.7,1 x 350 SSD,Moderate,0.1300
+c1.xlarge,8,7,4 x 420 SSD,High,0.5200
+c3.large,2,3.75,2 x 16 SSD,Moderate,0.1050
+c3.xlarge,4,7.5,2 x 40 SSD,Moderate,0.2100
+c3.2xlarge,8,15,2 x 80 SSD,High,0.4200
+c3.4xlarge,16,30,2 x 160 SSD,High,0.8400
+c3.8xlarge,32,60,2 x 320 SSD,10 Gigabit,1.6800
+cc2.8xlarge,32,60.5,4 x 840 SSD,10 Gigabit,2.0000
+cr1.8xlarge,32,244,2 x 120 SSD,10 Gigabit,3.5000
+g2.2xlarge,8,15,1 x 60 SSD,Moderate,0.6500
+g2.8xlarge,32,60,2 x 120 SSD,High,2.6000
+hs1.8xlarge,16,117,24 x 2000 HDD,10 Gigabit,4.6000
+i2.xlarge,4,30.5,1 x 800 SSD,Moderate,0.8530
+i2.2xlarge,8,61,2 x 800 SSD,High,1.7050
+i2.4xlarge,16,122,4 x 800 SSD,High,3.4100
+i2.8xlarge,32,244,8 x 800 SSD,10 Gigabit,6.8200
+m1.small,1,1.7,1 x 160 SSD,Low,0.0440
+m1.medium,1,3.75,1 x 410 SSD,Moderate,0.0870
+m1.large,2,7.5,2 x 420 SSD,Moderate,0.1750
+m1.xlarge,4,15,4 x 420 SSD,High,0.3500
+m2.xlarge,2,17.1,1 x 420 SSD,Moderate,0.2450
+m2.2xlarge,4,34.2,1 x 850 SSD,Moderate,0.4900
+m2.4xlarge,8,68.4,2 x 840 SSD,High,0.9800
+m3.medium,1,3.75,1 x 4 SSD,Moderate,0.0670
+m3.large,2,7.5,1 x 32 SSD,Moderate,0.1330
+m3.xlarge,4,15,2 x 40 SSD,High,0.2660
+m3.2xlarge,8,30,2 x 80 SSD,High,0.5320
+r3.large,2,15.25,1 x 32 SSD,Moderate,0.1660
+r3.xlarge,4,30.5,1 x 80 SSD,Moderate,0.3330
+r3.2xlarge,8,61,1 x 160 SSD,High,0.6650
+r3.4xlarge,16,122,1 x 320 SSD,High,1.3300
+r3.8xlarge,32,244,2 x 320 SSD,10 Gigabit,2.6600
+t1.micro,1,0.613,--,Very Low,0.0200
