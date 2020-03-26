@@ -3,6 +3,7 @@
 }}, {$project: {
   service: 1,
   region: 1,
+  ip: "$li.PublicIpAddress",
   instanceType: '$li.InstanceType',
   owner: {
     $filter: {
